@@ -1,5 +1,8 @@
 # Furina
 
+Furina is a Friend finder app helps students in university to find friends by completing missions together. Through the completion of missions, students can earn friendship points and charismatic points which can be used to exchange for food vouchers/coupons vendors supported by Universities such as RMIT. This encourages university students to go out of their comfort zone to complete these challenges and provides an opportunity for them to interact with the outside world. 
+
+
 This project is a combination of a SwiftUI frontend and FastAPI backend. The Swift app interacts with the FastAPI backend to manage users, retrieve friends, and handle missions. The missions feature allows users to chat and complete tasks.
 
 Video Demo: https://drive.google.com/file/d/1aExutEdiWWN1yOts_u6oHiBOlxfZONnD/view?usp=sharing
