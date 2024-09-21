@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45005822C9E97AC00AABA78 /* FurinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005812C9E97AC00AABA78 /* FurinaApp.swift */; };
+		A45005842C9E97AC00AABA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005832C9E97AC00AABA78 /* ContentView.swift */; };
+		A45005862C9E97AD00AABA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45005852C9E97AD00AABA78 /* Assets.xcassets */; };
+		A450058A2C9E97AD00AABA78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45005892C9E97AD00AABA78 /* Preview Assets.xcassets */; };
+		A45005942C9E97AD00AABA78 /* FurinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005932C9E97AD00AABA78 /* FurinaTests.swift */; };
+		A450059E2C9E97AD00AABA78 /* FurinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A450059D2C9E97AD00AABA78 /* FurinaUITests.swift */; };
+		A45005A02C9E97AD00AABA78 /* FurinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A450059F2C9E97AD00AABA78 /* FurinaUITestsLaunchTests.swift */; };
+		A45005AE2C9E97EB00AABA78 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005AD2C9E97EB00AABA78 /* SplashView.swift */; };
+		A45005B02C9E981800AABA78 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005AF2C9E981800AABA78 /* OnboardingView.swift */; };
+		A45005B22C9E982700AABA78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005B12C9E982700AABA78 /* HomeView.swift */; };
+		A45005B62C9E984B00AABA78 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005B52C9E984B00AABA78 /* TabsView.swift */; };
+		A45005C22C9E98B900AABA78 /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45005C12C9E98B900AABA78 /* Color+hex.swift */; };
+		A4601CD52C9EA5FE0077EE1A /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4601CD42C9EA5FE0077EE1A /* MissionView.swift */; };
+		A4601CD72C9EA71D0077EE1A /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4601CD62C9EA71D0077EE1A /* ChatView.swift */; };
+		A4601CD92C9EB5680077EE1A /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4601CD82C9EB5680077EE1A /* FriendsView.swift */; };
+		A464BDC82C9EFC4C0024875B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464BDC72C9EFC4B0024875B /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A45005902C9E97AD00AABA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45005762C9E97AC00AABA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A450057D2C9E97AC00AABA78;
+			remoteInfo = Furina;
+		};
+		A450059A2C9E97AD00AABA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45005762C9E97AC00AABA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A450057D2C9E97AC00AABA78;
+			remoteInfo = Furina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A450057E2C9E97AC00AABA78 /* Furina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45005812C9E97AC00AABA78 /* FurinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurinaApp.swift; sourceTree = "<group>"; };
+		A45005832C9E97AC00AABA78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A45005852C9E97AD00AABA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45005872C9E97AD00AABA78 /* Furina.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Furina.entitlements; sourceTree = "<group>"; };
+		A45005892C9E97AD00AABA78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A450058F2C9E97AD00AABA78 /* FurinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45005932C9E97AD00AABA78 /* FurinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurinaTests.swift; sourceTree = "<group>"; };
+		A45005992C9E97AD00AABA78 /* FurinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450059D2C9E97AD00AABA78 /* FurinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurinaUITests.swift; sourceTree = "<group>"; };
+		A450059F2C9E97AD00AABA78 /* FurinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A45005AD2C9E97EB00AABA78 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A45005AF2C9E981800AABA78 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A45005B12C9E982700AABA78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A45005B52C9E984B00AABA78 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		A45005C12C9E98B900AABA78 /* Color+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+hex.swift"; sourceTree = "<group>"; };
+		A4601CD42C9EA5FE0077EE1A /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		A4601CD62C9EA71D0077EE1A /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A4601CD82C9EB5680077EE1A /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		A464BDC72C9EFC4B0024875B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A450057B2C9E97AC00AABA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450058C2C9E97AD00AABA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45005962C9E97AD00AABA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45005752C9E97AC00AABA78 = {
+			isa = PBXGroup;
+			children = (
+				A45005802C9E97AC00AABA78 /* Furina */,
+				A45005922C9E97AD00AABA78 /* FurinaTests */,
+				A450059C2C9E97AD00AABA78 /* FurinaUITests */,
+				A450057F2C9E97AC00AABA78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A450057F2C9E97AC00AABA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A450057E2C9E97AC00AABA78 /* Furina.app */,
+				A450058F2C9E97AD00AABA78 /* FurinaTests.xctest */,
+				A45005992C9E97AD00AABA78 /* FurinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45005802C9E97AC00AABA78 /* Furina */ = {
+			isa = PBXGroup;
+			children = (
+				A45005C02C9E98A800AABA78 /* Extensions */,
+				A45005BF2C9E98A000AABA78 /* Data */,
+				A45005AC2C9E97D300AABA78 /* Views */,
+				A45005812C9E97AC00AABA78 /* FurinaApp.swift */,
+				A45005832C9E97AC00AABA78 /* ContentView.swift */,
+				A45005852C9E97AD00AABA78 /* Assets.xcassets */,
+				A45005872C9E97AD00AABA78 /* Furina.entitlements */,
+				A45005882C9E97AD00AABA78 /* Preview Content */,
+			);
+			path = Furina;
+			sourceTree = "<group>";
+		};
+		A45005882C9E97AD00AABA78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A45005892C9E97AD00AABA78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A45005922C9E97AD00AABA78 /* FurinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45005932C9E97AD00AABA78 /* FurinaTests.swift */,
+			);
+			path = FurinaTests;
+			sourceTree = "<group>";
+		};
+		A450059C2C9E97AD00AABA78 /* FurinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A450059D2C9E97AD00AABA78 /* FurinaUITests.swift */,
+				A450059F2C9E97AD00AABA78 /* FurinaUITestsLaunchTests.swift */,
+			);
+			path = FurinaUITests;
+			sourceTree = "<group>";
+		};
+		A45005AC2C9E97D300AABA78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A45005AD2C9E97EB00AABA78 /* SplashView.swift */,
+				A45005AF2C9E981800AABA78 /* OnboardingView.swift */,
+				A45005B12C9E982700AABA78 /* HomeView.swift */,
+				A45005B52C9E984B00AABA78 /* TabsView.swift */,
+				A4601CD42C9EA5FE0077EE1A /* MissionView.swift */,
+				A4601CD62C9EA71D0077EE1A /* ChatView.swift */,
+				A4601CD82C9EB5680077EE1A /* FriendsView.swift */,
+				A464BDC72C9EFC4B0024875B /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A45005BF2C9E98A000AABA78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A45005C02C9E98A800AABA78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A45005C12C9E98B900AABA78 /* Color+hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A450057D2C9E97AC00AABA78 /* Furina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45005A32C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "Furina" */;
+			buildPhases = (
+				A450057A2C9E97AC00AABA78 /* Sources */,
+				A450057B2C9E97AC00AABA78 /* Frameworks */,
+				A450057C2C9E97AC00AABA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Furina;
+			productName = Furina;
+			productReference = A450057E2C9E97AC00AABA78 /* Furina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A450058E2C9E97AD00AABA78 /* FurinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45005A62C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "FurinaTests" */;
+			buildPhases = (
+				A450058B2C9E97AD00AABA78 /* Sources */,
+				A450058C2C9E97AD00AABA78 /* Frameworks */,
+				A450058D2C9E97AD00AABA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45005912C9E97AD00AABA78 /* PBXTargetDependency */,
+			);
+			name = FurinaTests;
+			productName = FurinaTests;
+			productReference = A450058F2C9E97AD00AABA78 /* FurinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A45005982C9E97AD00AABA78 /* FurinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45005A92C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "FurinaUITests" */;
+			buildPhases = (
+				A45005952C9E97AD00AABA78 /* Sources */,
+				A45005962C9E97AD00AABA78 /* Frameworks */,
+				A45005972C9E97AD00AABA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A450059B2C9E97AD00AABA78 /* PBXTargetDependency */,
+			);
+			name = FurinaUITests;
+			productName = FurinaUITests;
+			productReference = A45005992C9E97AD00AABA78 /* FurinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45005762C9E97AC00AABA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A450057D2C9E97AC00AABA78 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A450058E2C9E97AD00AABA78 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A450057D2C9E97AC00AABA78;
+					};
+					A45005982C9E97AD00AABA78 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A450057D2C9E97AC00AABA78;
+					};
+				};
+			};
+			buildConfigurationList = A45005792C9E97AC00AABA78 /* Build configuration list for PBXProject "Furina" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45005752C9E97AC00AABA78;
+			productRefGroup = A450057F2C9E97AC00AABA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A450057D2C9E97AC00AABA78 /* Furina */,
+				A450058E2C9E97AD00AABA78 /* FurinaTests */,
+				A45005982C9E97AD00AABA78 /* FurinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A450057C2C9E97AC00AABA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450058A2C9E97AD00AABA78 /* Preview Assets.xcassets in Resources */,
+				A45005862C9E97AD00AABA78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450058D2C9E97AD00AABA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45005972C9E97AD00AABA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A450057A2C9E97AC00AABA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45005842C9E97AC00AABA78 /* ContentView.swift in Sources */,
+				A45005B62C9E984B00AABA78 /* TabsView.swift in Sources */,
+				A45005B02C9E981800AABA78 /* OnboardingView.swift in Sources */,
+				A4601CD72C9EA71D0077EE1A /* ChatView.swift in Sources */,
+				A45005822C9E97AC00AABA78 /* FurinaApp.swift in Sources */,
+				A45005B22C9E982700AABA78 /* HomeView.swift in Sources */,
+				A4601CD92C9EB5680077EE1A /* FriendsView.swift in Sources */,
+				A45005C22C9E98B900AABA78 /* Color+hex.swift in Sources */,
+				A45005AE2C9E97EB00AABA78 /* SplashView.swift in Sources */,
+				A464BDC82C9EFC4C0024875B /* ProfileView.swift in Sources */,
+				A4601CD52C9EA5FE0077EE1A /* MissionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450058B2C9E97AD00AABA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45005942C9E97AD00AABA78 /* FurinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45005952C9E97AD00AABA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450059E2C9E97AD00AABA78 /* FurinaUITests.swift in Sources */,
+				A45005A02C9E97AD00AABA78 /* FurinaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A45005912C9E97AD00AABA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A450057D2C9E97AC00AABA78 /* Furina */;
+			targetProxy = A45005902C9E97AD00AABA78 /* PBXContainerItemProxy */;
+		};
+		A450059B2C9E97AD00AABA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A450057D2C9E97AC00AABA78 /* Furina */;
+			targetProxy = A450059A2C9E97AD00AABA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A45005A12C9E97AD00AABA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A45005A22C9E97AD00AABA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A45005A42C9E97AD00AABA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Furina/Furina.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furina/Preview Content\"";
+				DEVELOPMENT_TEAM = NX78232L6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.Furina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A45005A52C9E97AD00AABA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Furina/Furina.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furina/Preview Content\"";
+				DEVELOPMENT_TEAM = NX78232L6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.Furina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A45005A72C9E97AD00AABA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX78232L6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.FurinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Furina";
+			};
+			name = Debug;
+		};
+		A45005A82C9E97AD00AABA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX78232L6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.FurinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Furina";
+			};
+			name = Release;
+		};
+		A45005AA2C9E97AD00AABA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX78232L6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.FurinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furina;
+			};
+			name = Debug;
+		};
+		A45005AB2C9E97AD00AABA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX78232L6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tb.FurinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45005792C9E97AC00AABA78 /* Build configuration list for PBXProject "Furina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45005A12C9E97AD00AABA78 /* Debug */,
+				A45005A22C9E97AD00AABA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45005A32C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "Furina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45005A42C9E97AD00AABA78 /* Debug */,
+				A45005A52C9E97AD00AABA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45005A62C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "FurinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45005A72C9E97AD00AABA78 /* Debug */,
+				A45005A82C9E97AD00AABA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45005A92C9E97AD00AABA78 /* Build configuration list for PBXNativeTarget "FurinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45005AA2C9E97AD00AABA78 /* Debug */,
+				A45005AB2C9E97AD00AABA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45005762C9E97AC00AABA78 /* Project object */;
+}
