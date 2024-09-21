@@ -33,5 +33,13 @@ This project is a combination of a SwiftUI frontend and FastAPI backend. The Swi
 4. Run the FastAPI server using Uvicorn:
 ```bash
 uvicorn app.main:app --reload
+```
 
+The API will now be accessible at http://localhost:8000.
 
+Step 2: Running the Swift App
+	1.	Open the Swift project in Xcode.
+	2.	Build and run the project.
+	3.	On the login page, enter the following credentials:
+	•	Username: user01
+	•	Password: user01
