@@ -19,19 +19,19 @@ This project is a combination of a SwiftUI frontend and FastAPI backend. The Swi
 
    ```bash
    cd api
-   ```
+
 2. Set up the environment variables by creating a .env file. Make sure to provide your SQLALCHEMY_DATABASE_URI with the correct username, password, and database name.
    ```bash
    echo "SQLALCHEMY_DATABASE_URI=postgresql://<username>:<password>@localhost/<database>" > .env
-   ```
+
 3. Set up the database migrations using SQLAlchemy (or Alembic):
    ```bash
    alembic init migrations
    alembic revision --autogenerate -m "Initial migration"
    alembic upgrade head
-  ```
+
 4. Run the FastAPI server using Uvicorn:
 ```bash
 uvicorn app.main:app --reload
-```
+
 
