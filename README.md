@@ -5,6 +5,9 @@ Furina is a Friend finder app helps students in university to find friends by co
 
 This project is a combination of a SwiftUI frontend and FastAPI backend. The Swift app interacts with the FastAPI backend to manage users, retrieve friends, and handle missions. The missions feature allows users to chat and complete tasks.
 
+figma link: https://www.figma.com/design/tem3MolQ07OMc2ywphXFCb/FURINA?node-id=0-1&node-type=canvas&t=sfc6fhgEt9ilGUUi-0
+
+
 Video Demo: https://drive.google.com/file/d/1aExutEdiWWN1yOts_u6oHiBOlxfZONnD/view?usp=sharing
 
 ## Prerequisites
